@@ -24,6 +24,7 @@ get_header(); ?>
             <?php
             $args = array(
               'post_type'       => 'devcan_service',
+							'order'           => 'ASC',
               'posts_per_page'  => -1
             );
 
@@ -48,7 +49,6 @@ get_header(); ?>
             <?php
             $args = array(
               'post_type'       => 'devcan_projects',
-              'order'           => 'ASC',
               'posts_per_page'  => -1
             );
 
